@@ -46,10 +46,10 @@ body {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 18px;
+  justify-items: center;
 }
 
 .card {
@@ -136,3 +136,4 @@ body {
     transform: translateY(110vh);
   }
 }
+
