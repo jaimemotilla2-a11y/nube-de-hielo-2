@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nube de Hielo | Carta</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Copitos -->
+<div id="snow"></div>
+
+<header class="header">
+  <img src="img/logo.jpeg" class="logo">
+</header>
+
+<a href="https://wa.me/573155422131" class="btn-wsp-fixed" target="_blank">
+  WhatsApp 🍧
+</a>
+
+<section class="menu">
+
+  <h2>❄️ Sabores Tradicionales</h2>
+  <div class="cards">
+
+    <div class="card" onclick="openCard(this)">
+      <img src="img/sabores/fresa.jpeg">
+      <h3>Fresa</h3>
+      <span>$12.000</span>
+    </div>
+
+    <div class="card" onclick="openCard(this)">
+      <img src="img/sabores/mora.jpeg">
+      <h3>Mora</h3>
+      <span>$12.000</span>
+    </div>
+
+    <div class="card" onclick="openCard(this)">
+      <img src="img/sabores/mango-biche.jpeg">
+      <h3>Mango Biche</h3>
+      <span>$12.000</span>
+    </div>
+
+    <div class="card" onclick="openCard(this)">
+      <img src="img/sabores/maracuya.jpeg">
+      <h3>Maracuyá</h3>
+      <span>$12.000</span>
+    </div>
+
+    <div class="card" onclick="openCard(this)">
+      <img src="img/sabores/maracumango.png">
+      <h3>Maracumango</h3>
+      <span>$12.000</span>
+    </div>
+
+  </div>
+
+  <h2>⭐ Sabores Especiales</h2>
+  <div class="cards">
+
+    <div class="card special" onclick="openCard(this)">
+      <img src="img/sabores/milo.jpeg">
+      <h3>Milo</h3>
+      <span>$15.000</span>
+    </div>
+
+    <div class="card special" onclick="openCard(this)">
+      <img src="img/sabores/cafe.jpeg">
+      <h3>Café</h3>
+      <span>$15.000</span>
+    </div>
+
+    <div class="card special" onclick="openCard(this)">
+      <img src="img/sabores/oreo.jpeg">
+      <h3>Oreo</h3>
+      <span>$15.000</span>
+    </div>
+
+    <div class="card special" onclick="openCard(this)">
+      <img src="img/sabores/coco.jpeg">
+      <h3>Coco</h3>
+      <span>$15.000</span>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Modal -->
+<div id="modal" onclick="closeCard(event)">
+  <div id="modal-content"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
