@@ -12,15 +12,18 @@
 
 <header class="header">
   <img src="img/logo.jpeg" class="logo">
+  <p class="subtitle">Carta</p>
 </header>
 
 <a href="https://wa.me/573155422131" class="btn-wsp-fixed" target="_blank">
   WhatsApp 🍧
 </a>
 
-<section class="menu">
+<!-- ===== SABORES TRADICIONALES ===== -->
+<section class="menu-section">
 
-  <h2>❄️ Sabores Tradicionales</h2>
+  <h2 class="section-title">❄️ Sabores Tradicionales</h2>
+
   <div class="cards">
 
     <div class="card" onclick="openCard(this)">
@@ -54,8 +57,14 @@
     </div>
 
   </div>
+</section>
 
-  <h2>⭐ Sabores Especiales</h2>
+
+<!-- ===== SABORES ESPECIALES ===== -->
+<section class="menu-section special-section">
+
+  <h2 class="section-title">⭐ Sabores Especiales</h2>
+
   <div class="cards">
 
     <div class="card special" onclick="openCard(this)">
@@ -83,8 +92,8 @@
     </div>
 
   </div>
-
 </section>
+
 
 <!-- Modal -->
 <div id="modal" onclick="closeCard(event)">
@@ -94,4 +103,5 @@
 <script src="js/script.js"></script>
 </body>
 </html>
+
 
