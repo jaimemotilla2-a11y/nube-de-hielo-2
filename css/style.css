@@ -153,7 +153,7 @@ body {
 
   .card img {
     width: 100%;
-    max-height: 400px;
+    height: 420px;
     object-fit: contain;
   }
 
@@ -167,6 +167,7 @@ body {
     font-weight: bold;
   }
 }
+
 
 
 
