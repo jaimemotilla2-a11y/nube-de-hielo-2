@@ -137,15 +137,22 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-  .cards {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+  .card {
+    max-width: 210px;   /* antes 180px */
+    padding: 14px;
   }
 
-  .card {
-    max-width: 240px;
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
   }
 }
+
+
 
 
 
