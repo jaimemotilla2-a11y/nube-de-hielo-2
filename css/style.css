@@ -275,4 +275,22 @@ body {
   }
 }
 
+/* ===== HEADER MEJORADO ===== */
+.header {
+  text-align: center;
+  padding: 30px 20px 40px;
+  position: relative;
+}
+
+/* línea decorativa debajo del logo */
+.header::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  margin: 22px auto 0;
+  background: linear-gradient(90deg, #4DA3C7, #7EC8E3);
+  border-radius: 10px;
+}
+
 
