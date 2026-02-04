@@ -282,15 +282,24 @@ body {
   position: relative;
 }
 
-/* línea decorativa debajo del logo */
-.header::after {
+/* Contenedor del header */
+.header-box {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Línea decorativa ahora ligada a Carta */
+.header-box::after {
   content: "";
   display: block;
-  width: 120px;
+  width: 140px;
   height: 4px;
-  margin: 22px auto 0;
+  margin: 20px auto 0;
   background: linear-gradient(90deg, #4DA3C7, #7EC8E3);
   border-radius: 10px;
 }
+
+
 
 
